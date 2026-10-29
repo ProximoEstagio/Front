@@ -77,7 +77,7 @@ Valores exibidos ao usuário devem ser textos simples. O Thymeleaf usa `th:text`
 | `estagio-concluido-aluno` | `nome`, `urlAreaAluno`, `dataHora` (opcional) |
 | `estagio-encerrado-secretaria` | `nomeAluno`, `urlPainelSecretaria`, `dataHora` (opcional) |
 
-Para `documento-avaliado-aluno`, passe `statusAvaliacao` como `APROVADO` ou `REPROVADO`. O bloco de feedback só aparece quando `feedback` não é nulo nem vazio.
+Para `documento-avaliado-aluno`, passe `statusAvaliacao` como `APROVADO` ou `DESAPROVADO`. O bloco de feedback só aparece quando `feedback` não é nulo nem vazio.
 
 ## Boas práticas importantes
 
