@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>Novo documento recebido | Próximo Estágio</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f5f5f5;font-family:Montserrat,Arial,Helvetica,sans-serif;color:#525252;">
+  <div style="display:none;font-size:1px;color:#f5f5f5;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">Um aluno enviou um documento para avaliação.</div>
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;border-collapse:collapse;background-color:#f5f5f5;">
+    <tr>
+      <td align="center" style="padding:28px 12px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="width:100%;max-width:600px;border-collapse:separate;border-spacing:0;background-color:#ffffff;border:1px solid #e1e1e1;border-radius:10px;overflow:hidden;">
+          <tr>
+            <td style="padding:23px 28px;background-color:#ae0f10;">
+              <p style="margin:0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:22px;line-height:1.3;font-weight:700;color:#ffffff;">Próximo Estágio</p>
+              <p style="margin:5px 0 0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#ffffff;">Sua jornada de estágio, organizada.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:30px 28px 32px;">
+              <h1 style="margin:0 0 16px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:22px;line-height:1.35;font-weight:700;color:#4b555c;">Novo documento recebido</h1><p style="margin:0 0 16px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:14px;line-height:1.7;color:#525252;">Olá! O aluno <strong th:text="\${nomeAluno}">Nome do aluno</strong> enviou um documento para avaliação.</p><table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:18px 0;border-collapse:separate;border-spacing:0;background-color:#f7f7f7;border:1px solid #e1e1e1;border-radius:6px;"><tr><td style="padding:15px;"><p style="margin:0 0 5px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:11px;text-transform:uppercase;color:#777777;">Tipo de documento</p><p th:text="\${tipoDocumento}" style="margin:0 0 14px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;font-weight:700;color:#4b555c;">Documento A</p><p style="margin:0 0 5px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:11px;text-transform:uppercase;color:#777777;">Data e horário do envio</p><p th:text="\${dataHora}" style="margin:0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#525252;">29/10/2026 às 10:30</p></td></tr></table><p style="margin:0 0 16px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:14px;line-height:1.7;color:#525252;">Acesse a plataforma para consultar o arquivo enviado e registrar sua avaliação.</p><table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:22px 0 8px;border-collapse:separate;"><tr><td align="center" bgcolor="#ae0f10" style="border-radius:5px;background-color:#ae0f10;"><a th:href="\${urlDocumentos}" style="display:inline-block;padding:13px 22px;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;line-height:1.2;color:#ffffff;text-decoration:none;border-radius:5px;">Ver documentos</a></td></tr></table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 28px;background-color:#f7f7f7;border-top:1px solid #e1e1e1;">
+              <p style="margin:0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:11px;line-height:1.6;color:#777777;">Esta é uma mensagem automática da plataforma Próximo Estágio. Por favor, não responda diretamente a este email.</p>
+              <p style="margin:7px 0 0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:11px;line-height:1.6;color:#777777;">Se você não reconhece esta solicitação, não clique em links nem compartilhe códigos de confirmação.</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin:14px 0 0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-size:11px;line-height:1.5;color:#919191;text-align:center;">Próximo Estágio</p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
