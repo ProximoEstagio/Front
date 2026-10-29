@@ -24,12 +24,9 @@ Copie os arquivos HTML para o classpath do backend, por exemplo em `src/main/res
 Exemplo de renderização:
 
 ```java
-import java.nio.charset.StandardCharsets;
-import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.context.Theme;
-import org.thymeleaf.context.Context;
 import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
 
 @Service
 public class EmailTemplateRenderer {
